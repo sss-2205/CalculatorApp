@@ -11,7 +11,7 @@ public class Calculator {
         int result = num1 + num2;
 
         System.out.println("Add: " + num1 + " + " + num2 + " = " + result);
-        int result = num1 - num2;
+        result = num1 - num2;
         System.out.println("Sub: " + num1 + " - " + num2 + " = " + result);
         
     }
