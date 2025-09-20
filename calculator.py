@@ -42,7 +42,7 @@ if __name__ == "__main__":
     elif operation == "divide":
         result = divide(a, b)
     else:
-        print("Invalid operation! Choose add, subtract, multiply, divide.")
+        print("Invalid operation! Choose from add, subtract, multiply, divide.")
         sys.exit(1)
 
     print(f"Result: {result}")
