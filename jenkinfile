@@ -1,0 +1,17 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/sss-2205/CalculatorApp.git'
+            }
+        }
+
+        stage('Run Calculator') {
+            steps {
+                sh 'python3 calculator.py 1 2 add'
+            }
+        }
+    }
+}
